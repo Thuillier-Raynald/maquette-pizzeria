@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "amaticsc";
+    src: url("../font/amaticsc.woff2");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "amaticsc";
+    background-color: #6B7A81;
+}
+
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 0 1rem;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#imgHeader{
+    position: relative;  
+    height: 20rem;
+    background-image: url("../img/pizza.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: .8;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 300;
+    line-height: 5rem;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: .6rem;
+    margin-top: 13rem;
+    border: none;
+    cursor: pointer;
+}
+
+.horaires {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 .4rem .5rem;
+    background-color: #000;
+    padding: .2rem;
+    font-size: .8rem;
+}
+
+/*---The Menu---*/
+
+#menu {
+    background-color: black;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    font-weight: 400;
+}
+
+.menu {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.menu p {
+    margin: 0;
+    padding: 1rem 0 1rem .5rem 
+}
+
+.menu ul li {
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    background-color: black;
+}
+
+.menu ul li:nth-child(1) {
+    background-color: red;
+}
+
+.menu hr {
+    border: 1px solid rgba(230, 229, 229, 0.219);
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products p:nth-child(1) {
+    font-weight: 600;
+}
+
+.products p:nth-child(2) {
+    background-color: grey;
+    color: white;
+    height: 2rem;
+    margin: .8rem ;
+    padding: .5rem;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+
+.products .hot {
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    padding: .2rem;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+
+.products .new {
+    background-color: grey;
+    font-weight: 400;
+    padding: .2rem;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+
+/*---About---*/
+
+#about {
+    background-color: #8C5F5A;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p {
+    margin: 1rem 0;
+    line-height: 1.8rem;
+}
+
+.entete p {
+    line-height: 3rem;
+}
+
+.entete p span {
+    font-weight: 600;
+}
+
+.container img {
+    width: 100%;
+}
+
+.entete img {
+    width: 6rem;
+    height: 4rem;
+    /*---Pour faire un ovale largeur/2 divisé hauteur/2---*/
+    border-radius: 3rem/2rem;
+    -webkit-border-radius: 3rem/2rem;
+    -moz-border-radius: 3rem/2rem;
+    -ms-border-radius: 3rem/2rem;
+    -o-border-radius: 3rem/2rem;
+}
+
+.container .hours {
+    font-weight: 400;
+}
+
+.hours {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.hours .hour {
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.map {
+    height: 20rem;
+    width: 100%;
+}
+
+/*---Contact---*/
+
+#contact {
+    background-color: #6B7A81;
+    color: white;
+    line-height: 1.5rem;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+#contact p span {
+    background-color: #000;
+    border-radius: .2rem;
+    padding: .4rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+
+#contact h3 span {
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: .6rem 0;
+    padding: 1rem 0 1rem .8rem;
+}
+
+form input:nth-child(5) {
+  padding: .5rem;
+  background-color: #CCC;
+  border: none;
+  cursor: pointer;
+}
+
+/*---Footer---*/
+
+footer {
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    padding: 3rem;
+    text-align: center;
+}
